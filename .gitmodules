@@ -1,7 +1,42 @@
 [submodule "themes/FixIt"]
 	path = themes/FixIt
-	url = https://github.com/hugo-fixit/FixIt.git
-	branch = main
+	url = https://github.com/hugo-fixit/FixIt
 [submodule "themes/shortcode-docs-bookmark"]
 	path = themes/shortcode-docs-bookmark
 	url = https://github.com/hugo-fixit/shortcode-docs-bookmark
+[submodule "themes/component-projects"]
+	path = themes/component-projects
+	url = https://github.com/hugo-fixit/component-projects
+[submodule "themes/cmpt-santa-hat"]
+	path = themes/cmpt-santa-hat
+	url = https://github.com/hugo-fixit/cmpt-santa-hat
+[submodule "themes/cmpt-translate"]
+	path = themes/cmpt-translate
+	url = https://github.com/hugo-fixit/cmpt-translate
+[submodule "themes/hugo-atom-feed"]
+	path = themes/hugo-atom-feed
+	url = https://github.com/hugo-fixit/hugo-atom-feed
+[submodule "themes/hugo-json-feed"]
+	path = themes/hugo-json-feed
+	url = https://github.com/hugo-fixit/hugo-json-feed
+[submodule "themes/shortcode-asciinema"]
+	path = themes/shortcode-asciinema
+	url = https://github.com/hugo-fixit/shortcode-asciinema
+[submodule "themes/shortcode-caniuse"]
+	path = themes/shortcode-caniuse
+	url = https://github.com/hugo-fixit/shortcode-caniuse
+[submodule "themes/shortcode-missing-translation"]
+	path = themes/shortcode-missing-translation
+	url = https://github.com/hugo-fixit/shortcode-missing-translation
+[submodule "themes/shortcode-mmt-netease"]
+	path = themes/shortcode-mmt-netease
+	url = https://github.com/hugo-fixit/shortcode-mmt-netease
+[submodule "themes/shortcode-rewards"]
+	path = themes/shortcode-rewards
+	url = https://github.com/hugo-fixit/shortcode-rewards
+[submodule "themes/cmpt-flyfish"]
+	path = themes/cmpt-flyfish
+	url = https://github.com/hugo-fixit/cmpt-flyfish
+[submodule "themes/cmpt-mdevtools"]
+	path = themes/cmpt-mdevtools
+	url = https://github.com/hugo-fixit/cmpt-mdevtools

@@ -1,22 +1,28 @@
 {
-  "name": "hugo-fixit-starter1",
+  "name": "hugo-fixit-gitmodule",
   "version": "1.0.0",
   "description": "This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses Git submodule feature to load the theme.",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "build": "hugo --gc --minify --logLevel info",
-    "server": "hugo server -D --disableFastRender --navigateToChanged --bind 0.0.0.0 -O",
+    "server": "hugo server -D -E -F -M -N -O --disableFastRender --bind 0.0.0.0 -b http://localhost:1313 --logLevel info",
     "server:production": "npm run server -- --environment production",
-    "update:theme": "git submodule update --remote --merge themes/FixIt && git add themes/FixIt && git commit -m ':arrow_up: Chore(theme): update FixIt version'"
+    "update:theme": "git submodule update --remote --merge themes/FixIt && git add themes/FixIt && git commit -m ':arrow_up: Chore(theme): update FixIt version'",
+    "upgrade": "git submodule update --remote --merge"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hugo-fixit/hugo-fixit-starter1.git"
+    "url": "git+https://github.com/attajak/hugo-fixit-gitmodule.git"
   },
-  "author": "Lruihao (https://github.com/Lruihao)",
+  "author": {
+    "name": "attajak",
+    "email": "janrak@gmail.com",
+    "url": "https://github.com/attajak"
+  },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hugo-fixit/hugo-fixit-starter1/issues"
+    "url": "https://github.com/attajak/hugo-fixit-gitmodule/issues"
   },
-  "homepage": "https://github.com/hugo-fixit/hugo-fixit-starter1#readme"
+  "homepage": "https://github.com/attajak/hugo-fixit-gitmodule#readme"
 }

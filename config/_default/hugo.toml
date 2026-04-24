@@ -29,3 +29,19 @@ enableEmoji = true
 # if set, the MainSections method on the Site object returns the given sections,
 # otherwise it returns the section with the most pages.
 # mainSections = ["posts"]
+theme = [
+  "FixIt",
+  "cmpt-flyfish",
+  "cmpt-mdevtools",
+  "cmpt-santa-hat",
+  "cmpt-translate",
+  "component-projects",
+  "hugo-atom-feed",
+  "hugo-json-feed",
+  "shortcode-asciinema",
+  "shortcode-caniuse",
+  "shortcode-docs-bookmark",
+  "shortcode-missing-translation",
+  "shortcode-mmt-netease",
+  "shortcode-rewards",
+]
