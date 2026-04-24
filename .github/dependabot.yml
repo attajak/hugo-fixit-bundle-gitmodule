@@ -8,18 +8,20 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "monthly"
+      interval: "weekly"
     open-pull-requests-limit: 1000
     assignees:
-      - "Lruihao"
+      - "attajak"
     labels:
+      - "github-actions"
       - "dependencies"
   - package-ecosystem: "gitsubmodule" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "monthly"
+      interval: "weekly"
     open-pull-requests-limit: 1000
     assignees:
-      - "Lruihao"
+      - "attajak"
     labels:
+      - "gitsubmodule"
       - "dependencies"
