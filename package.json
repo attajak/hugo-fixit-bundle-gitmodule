@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/attajak/hugo-fixit-gitmodule.git"
+    "url": "git+https://github.com/attajak/hugo-fixit-bundle-gitmodule.git"
   },
   "author": {
     "name": "attajak",
@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/attajak/hugo-fixit-gitmodule/issues"
+    "url": "https://github.com/attajak/hugo-fixit-bundle-gitmodule/issues"
   },
-  "homepage": "https://github.com/attajak/hugo-fixit-gitmodule#readme"
+  "homepage": "https://github.com/attajak/hugo-fixit-bundle-gitmodule#readme"
 }
