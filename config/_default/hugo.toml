@@ -4,9 +4,9 @@
 # -------------------------------------------------------------------------------------
 
 # website title
-title = "Hugo-FixIt"
+title = "Hugo FixIt-bundle"
 # Hostname (and path) to the root
-baseURL = "https://example.org/"
+baseURL = "/hugo-fixit-bundle-gitmodule"
 # theme list
 # theme = ["FixIt"] # enable in your site config file
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
@@ -16,7 +16,7 @@ languageCode = "en"
 # language name ["English", "简体中文", "Français", "Polski", ...]
 languageName = "English"
 # whether to include Chinese/Japanese/Korean
-hasCJKLanguage = false
+hasCJKLanguage = true
 # copyright description used only for seo schema
 copyright = ""
 # whether to use robots.txt

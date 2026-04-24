@@ -47,9 +47,9 @@ disableThemeInject = false
 
 # Author Configuration
 [author]
-  name = "Attajak Janrak"
-  email = "https://github.com/attajak"
-  link = "https://github.com/attajak"
+name = ""
+email = ""
+link = ""
 avatar = ""
 
 # FixIt 0.3.0 | NEW public Git repository information only then enableGitInfo is true
@@ -143,7 +143,7 @@ mobileMode = "auto"
 # Header title config
 [header.title]
 # URL of the LOGO
-logo = "/images/fixit.min.svg"
+logo = ""
 # title name
 name = ""
 # you can add extra information before the name (HTML format is supported), such as icons
@@ -779,15 +779,29 @@ expand_file_tree = false
 # Custom partials must be stored in the /layouts/_partials/ directory.
 # Depends on open custom blocks https://fixit.lruihao.cn/references/blocks/
 [customPartials]
-head = []
-menuDesktop = []
-menuMobile = []
+head = [
+  "inject/component-projects.html",
+  "inject/fixit-docs-bookmark.html",
+  "inject/shortcode-rewards.html",
+  ]
+menuDesktop = [
+  "inject/translate-menu-desktop.html",
+  ]
+menuMobile = [
+  "inject/translate-menu-mobile.html",
+  ]
 profile = []
 aside = []
 comment = []
 footer = []
 widgets = []
-assets = []
+assets = [
+  "inject/cmpt-flyfish.html",
+  "inject/cmpt-mdevtools.html",
+  "inject/cmpt-translate.html",
+  "inject/santa-hat.fixit.html",
+  "inject/shortcode-caniuse.html",
+  ]
 postTocBefore = []
 postTocAfter = []
 postContentBefore = []
