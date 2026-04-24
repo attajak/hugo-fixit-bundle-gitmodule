@@ -5,4 +5,5 @@ subtitle: <https://github.com/Lruihao>
 sectionSlot: Some text to display in the section slot which is above the related articles list.
 hiddenAdapters: false
 layout: projects
+draft: true
 ---
