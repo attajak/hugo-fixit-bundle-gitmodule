@@ -1,8 +1,8 @@
 # hugo-fixit-bundle-gitmodule
 
-<details>
-<summary>FixIt-bundle</summary>
-- [FixIt](https://github.com/hugo-fixit/FixIt): 🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题 
+## FixIt-bundle component list
+- [FixIt](https://github.com/hugo-fixit/FixIt)
+  🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题 
 <!-- HUGO_FIXIT_COMPONENTS:START -->
 - [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish): 🐟 A canvas implemented animation effect of small fish swimming.\
 - [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools): Mobile devtools component powered by vConsole and eruda.\
@@ -18,4 +18,3 @@
 - [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease): 🎶 A Hugo theme component with a NetEase Cloud random comment shortcode.\
 - [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards): A Hugo theme component with reward-log or sponsor-log shortcode.\
 <!-- HUGO_FIXIT_COMPONENTS:END -->
-</details>
