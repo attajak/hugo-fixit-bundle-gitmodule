@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 jobs:
-  Update-FixIt:
+  Update-FixIt-bundle:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
@@ -32,6 +32,8 @@ jobs:
           git submodule update --remote --merge
 
       - uses: actions/setup-node@v6
+        with:
+          node-version: 24
 
       - name: Generate hugo-fixit component list
         id: action-component-list
@@ -42,7 +44,7 @@ jobs:
           comment_tag_name: HUGO_FIXIT_COMPONENTS
           readme_path: 'README.md'
           exclude_repos: 'fixit-bundle'
-          template: "- [{$repo.name}]({$repo.html_url})\\\n {$repo.description"
+          template: "- [{$repo.name}]({$repo.html_url})\\\n {$repo.description}"
 
       - name: Commit changes
         uses: stefanzweifel/git-auto-commit-action@v7

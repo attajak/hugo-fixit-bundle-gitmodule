@@ -1,15 +1,15 @@
 {
   "name": "hugo-fixit-bundle-gitmodule",
-  "version": "1.0.0",
-  "description": "This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt). It uses Git submodule feature to load the theme.",
+  "version": "0.0.0",
+  "description": "This is a quick start template for Hugo theme [FixIt](https://github.com/hugo-fixit/FixIt) and [fixit-bundle](https://github.com/hugo-fixit/fixit-bundle) components. It uses Git submodule feature to load the theme.",
   "private": true,
   "main": "index.js",
   "scripts": {
     "build": "hugo --gc --minify --logLevel info",
-    "server": "hugo server -D -E -F -M -N -O --disableFastRender --bind 0.0.0.0 -b http://localhost:1313 --ignoreCache --noBuildLock --logLevel info",
+    "server": "hugo server -D -E -F -M -N -O --disableFastRender --bind 0.0.0.0 -b http://localhost:1313 --ignoreCache --logLevel info",
     "server:production": "npm run server -- --environment production",
-    "update:theme": "git submodule update --remote --merge themes/FixIt && git add themes/FixIt && git commit -m ':arrow_up: Chore(theme): update FixIt version'",
-    "upgrade": "git submodule update --remote --merge",
+    "update:themes": "git submodule update --remote --merge -- ./themes/** && git add themes/ && git commit -m ':arrow_up: Chore(deps): update theme and components version'",
+    "new": "hugo new content",
     "prepare": "git submodule update --init --recursive"
   },
   "repository": {
