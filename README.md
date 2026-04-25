@@ -4,17 +4,30 @@
 - [FixIt](https://github.com/hugo-fixit/FixIt)
   🔧 A clean, elegant but advanced blog theme for Hugo 一个简洁、优雅且高效的 Hugo 主题 
 <!-- HUGO_FIXIT_COMPONENTS:START -->
-- [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish): 🐟 A canvas implemented animation effect of small fish swimming.\
-- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools): Mobile devtools component powered by vConsole and eruda.\
-- [cmpt-santa-hat](https://github.com/hugo-fixit/cmpt-santa-hat): A Christmas Easter Egg by JavaScript.\
-- [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate): 🌐 A component for site automatic translation.\
-- [component-projects](https://github.com/hugo-fixit/component-projects): 🐙 Display your GitHub projects in the FixIt theme and generate blog posts from readme.\
-- [hugo-atom-feed](https://github.com/hugo-fixit/hugo-atom-feed): Hugo theme component for ATOM feed custom Output Format.\
-- [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed): Hugo theme component for JSON feed custom Output Format.\
-- [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema): A Hugo theme component with asciinema-embed shortcode.\
-- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse): A Hugo theme component with caniuse shortcode.\
-- [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark): 🔖 Embed bookmark of FixIt Docs.\
-- [shortcode-missing-translation](https://github.com/hugo-fixit/shortcode-missing-translation): A Hugo theme component with missing-translation shortcode.\
-- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease): 🎶 A Hugo theme component with a NetEase Cloud random comment shortcode.\
-- [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards): A Hugo theme component with reward-log or sponsor-log shortcode.\
+- [cmpt-flyfish](https://github.com/hugo-fixit/cmpt-flyfish)\
+ {$repo.description
+- [cmpt-mdevtools](https://github.com/hugo-fixit/cmpt-mdevtools)\
+ {$repo.description
+- [cmpt-santa-hat](https://github.com/hugo-fixit/cmpt-santa-hat)\
+ {$repo.description
+- [cmpt-translate](https://github.com/hugo-fixit/cmpt-translate)\
+ {$repo.description
+- [component-projects](https://github.com/hugo-fixit/component-projects)\
+ {$repo.description
+- [hugo-atom-feed](https://github.com/hugo-fixit/hugo-atom-feed)\
+ {$repo.description
+- [hugo-json-feed](https://github.com/hugo-fixit/hugo-json-feed)\
+ {$repo.description
+- [shortcode-asciinema](https://github.com/hugo-fixit/shortcode-asciinema)\
+ {$repo.description
+- [shortcode-caniuse](https://github.com/hugo-fixit/shortcode-caniuse)\
+ {$repo.description
+- [shortcode-docs-bookmark](https://github.com/hugo-fixit/shortcode-docs-bookmark)\
+ {$repo.description
+- [shortcode-missing-translation](https://github.com/hugo-fixit/shortcode-missing-translation)\
+ {$repo.description
+- [shortcode-mmt-netease](https://github.com/hugo-fixit/shortcode-mmt-netease)\
+ {$repo.description
+- [shortcode-rewards](https://github.com/hugo-fixit/shortcode-rewards)\
+ {$repo.description
 <!-- HUGO_FIXIT_COMPONENTS:END -->
