@@ -4,7 +4,7 @@
 # -------------------------------------------------------------------------------------
 
 # website title
-title = "Hugo FixIt-bundle"
+title = "Hugo FixIt"
 # Hostname (and path) to the root
 baseURL = "/hugo-fixit-bundle-gitmodule"
 # theme list
