@@ -12,9 +12,9 @@ baseURL = "/hugo-fixit-bundle-gitmodule"
 # determines default content language ["en", "zh-cn", "fr", "pl", ...]
 defaultContentLanguage = "en"
 # language code ["en", "zh-CN", "fr", "pl", ...]
-languageCode = "en"
+locale = "en"
 # language name ["English", "简体中文", "Français", "Polski", ...]
-languageName = "English"
+label = "English"
 # whether to include Chinese/Japanese/Korean
 hasCJKLanguage = true
 # copyright description used only for seo schema
